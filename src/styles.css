@@ -6,18 +6,24 @@ body {
     background-color: hsl(275, 100%, 97%);
     background-image: url('../faq-accordion-main/assets/images/background-pattern-desktop.svg');
     background-repeat: no-repeat;
-    height: 100vh;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
     position: relative;
 }
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 900px) {
     
     body {
         background-image: url('../faq-accordion-main/assets/images/background-pattern-mobile.svg');
         background-repeat: no-repeat;
+        height: 100%;
     }
   
-}
+    .main-container {
+        top: 300px;
+    }
+} */
 
 @media screen and (max-width: 733px){
     
@@ -33,12 +39,24 @@ body {
     padding: 0.5rem 1.5rem;
     border-radius: 0.7rem;
     position: absolute;
-    top: 60%;
+    top: 525px;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 500px;
 }
 
+@media screen and (max-width: 571px) {
+    
+    body {
+        background-image: url('../faq-accordion-main/assets/images/background-pattern-mobile.svg');
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+  
+    .main-container {
+        top: 380px;
+    }
+}
 
 .faq-title {
     display: flex;
@@ -86,4 +104,3 @@ body {
 .question-box:nth-child(-n+3) {
     border-bottom: 1px solid rgb(0, 0, 0, 0.08);
 }
-
