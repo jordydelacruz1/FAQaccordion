@@ -1,7 +1,7 @@
 {
   "name": "faq-accordion",
-  "private": true,
   "version": "0.0.0",
+  "homepage": "https://jordydelacruz1.github.io/FAQaccordion/",
   "type": "module",
   "scripts": {
     "dev": "vite",
